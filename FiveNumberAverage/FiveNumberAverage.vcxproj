@@ -19,8 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{9A656B99-0492-4630-975D-2BC704937413}</ProjectGuid>
-    <RootNamespace>Variables</RootNamespace>
+    <ProjectGuid>{E9ABD922-8398-405B-9BC0-9D67190E03B1}</ProjectGuid>
+    <RootNamespace>FiveNumberAverage</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />

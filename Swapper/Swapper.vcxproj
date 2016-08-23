@@ -19,8 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{9A656B99-0492-4630-975D-2BC704937413}</ProjectGuid>
-    <RootNamespace>Variables</RootNamespace>
+    <ProjectGuid>{DD789AB9-41BE-42AB-953D-D57C3A1C27C3}</ProjectGuid>
+    <RootNamespace>Swapper</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
