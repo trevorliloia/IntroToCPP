@@ -7,8 +7,8 @@ int main()
 
 	//printf("ONE LETTER. ONLY. (NO EXCEPTIONS.)\n");
 
-	scanf_s(" %c", &charA, 1);
-	scanf_s(" %c", &charB, 1);
+	scanf_s(" %c %c", &charA, 1, &charB, 1);
+	//scanf_s(" %c", &charB, 1);
 	int asciiVal = charA;
 	int asciiVal2 = charB;
 
