@@ -3,14 +3,13 @@ int main()
 {
 	system("color fd");
 	char charA, charB, charC;
-	int varA, varB;
 
 	//printf("ONE LETTER. ONLY. (NO EXCEPTIONS.)\n");
 
 	scanf_s(" %c %c", &charA, 1, &charB, 1);
 	//scanf_s(" %c", &charB, 1);
-	int asciiVal = charA;
-	int asciiVal2 = charB;
+	int asciiVal = tolower(charA);
+	int asciiVal2 = tolower(charB);
 
 int asciiVal3 = ((asciiVal + asciiVal2) / 2);
 	charC = asciiVal3;

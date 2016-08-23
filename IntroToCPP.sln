@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FiveNumberAverage", "FiveNu
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AlphabetAverage", "AlphabetAverage\AlphabetAverage.vcxproj", "{085AD02A-4A23-479D-9FF7-E916FB8BC8CC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestProgram", "TestProgram\TestProgram.vcxproj", "{B1387801-C1A1-4371-BFB3-B9D1D9188D24}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{085AD02A-4A23-479D-9FF7-E916FB8BC8CC}.Release|x64.Build.0 = Release|x64
 		{085AD02A-4A23-479D-9FF7-E916FB8BC8CC}.Release|x86.ActiveCfg = Release|Win32
 		{085AD02A-4A23-479D-9FF7-E916FB8BC8CC}.Release|x86.Build.0 = Release|Win32
+		{B1387801-C1A1-4371-BFB3-B9D1D9188D24}.Debug|x64.ActiveCfg = Debug|x64
+		{B1387801-C1A1-4371-BFB3-B9D1D9188D24}.Debug|x64.Build.0 = Debug|x64
+		{B1387801-C1A1-4371-BFB3-B9D1D9188D24}.Debug|x86.ActiveCfg = Debug|Win32
+		{B1387801-C1A1-4371-BFB3-B9D1D9188D24}.Debug|x86.Build.0 = Debug|Win32
+		{B1387801-C1A1-4371-BFB3-B9D1D9188D24}.Release|x64.ActiveCfg = Release|x64
+		{B1387801-C1A1-4371-BFB3-B9D1D9188D24}.Release|x64.Build.0 = Release|x64
+		{B1387801-C1A1-4371-BFB3-B9D1D9188D24}.Release|x86.ActiveCfg = Release|Win32
+		{B1387801-C1A1-4371-BFB3-B9D1D9188D24}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
