@@ -13,7 +13,7 @@ bool notAttack = true;
 void Attack()
 {
 	srand((unsigned)time(0));
-	int roll = ((rand() % 40) + 1);
+	int roll = ((rand() % 50) + 1);
 	var[playerval] -= roll;
 }
 int main()
