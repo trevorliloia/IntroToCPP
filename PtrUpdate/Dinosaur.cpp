@@ -33,7 +33,7 @@ Dinosaur modifyasaurusRef(Dinosaur &var)
 	printf("Input anger level\n");
 	scanf_s(" %d", &var.anger);
 	printf(" %d\n", var.anger);
-
+	
 	printf("Input number of teeth\n");
 	scanf_s(" %d", &var.teeth);
 	printf(" %d\n", var.teeth);
