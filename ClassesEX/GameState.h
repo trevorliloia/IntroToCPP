@@ -4,11 +4,14 @@
 class GameState
 {
 	const int Z_COUNT = 4;
-	Zombie zombies[Z_COUNT];
+	Zombie zombies[4];
 
 public:
 	void init();
+	void update();
 	void start();
-	void drawStatus();
 
+	void drawStatus() const;
+	void drawRound() const;
+	bool isGameOver() const;
 };
