@@ -5,7 +5,7 @@ class Zombie
 private:
 	char name[80], prior[80];
 
-	int baseHealth, baseAttack, critRate, kills, kbnl = (10*level);
+	int baseHealth = 10, baseAttack = 5, critRate, kills, kbnl = (10*level);
 	int health, attack;
 	int level = 1;
 

@@ -16,7 +16,7 @@ void Zombie::init(const char a_name[], const char a_occ[])
 
 void Zombie::draw(bool brief)const
 {
-	printf("%s the %s\n", name, prior);
+	printf("%s the %s  HP: %d\n", name, prior, health);
 	if (!brief)
 		printf("HP: %d\nAtk: %d\n", health, attack);
 }
