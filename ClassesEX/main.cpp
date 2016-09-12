@@ -47,4 +47,11 @@ void main()
 		}
 		gameOver = (livingzombies == 1);
 	}
+	getchar();
+	getchar();
+	getchar();
+	getchar();
+	getchar();
+	getchar();
+	system("pause");
 }

@@ -21,7 +21,10 @@ void Zombie::draw(bool brief)const
 		printf("HP: %d\nAtk: %d\n", health, attack);
 }
 
-bool Zombie::isAlive() const { return health <= 0; }
+bool Zombie::isAlive() const
+{
+	return health > 0;
+}
 
 void Zombie::takeDamage(int dmg) { health -= dmg; }
 
